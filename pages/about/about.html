@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>About</title>
+    <link rel="stylesheet" type="text/css" href="about.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="../../js/desktop/about.js"></script>
+    <!------------>
+    <!--Favicons-->
+    <!------------>
+    <link rel="shortcut icon" href="../../assets/images/favicons/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" sizes="57x57" href="../../assets/images/favicons/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="../../assets/images/favicons/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="../../assets/images/favicons/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="../../assets/images/favicons/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="../../assets/images/favicons/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="../../assets/images/favicons/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="../../assets/images/favicons/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="../../assets/images/favicons/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../../assets/images/favicons/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="../../assets/images/favicons/favicon-16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="../../assets/images/favicons/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="../../assets/images/favicons/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="../../assets/images/favicons/android-chrome-192x192.png" sizes="192x192">
+    <!---------------->
+    <!--End Favicons-->
+    <!---------------->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <script type="text/javascript">
+    window.onresize = function(event) {
+      if (window.innerWidth < 768) {
+        document.location = "about-mobile.html";
+      }
+    };
+  </script>
+  </head>
+
+  <body>
+
+    <nav>
+      <a href="../../index.html"><img src="../../assets/images/AFLogo.svg" alt="App Factory Logo"></a>
+      <h1>App Factory</h1>
+      <ul>
+        <li><a href="../../index.html" id="home">Home</a></li>
+        <li><a href="../about/about.html" id="about">About</a></li>
+        <li><a href="../portfolio/portfolio.html" id="portfolio">Portfolio</a></li>
+        <a href="../contact/contact.html"><button>Contact Us</button></a>
+      </ul>
+    </nav>
+
+    <!--Background gradients for divs-->
+    <div class="headerbackground"></div>
+    <div class="body1background"></div>
+    <div class="body2background"></div>
+
+
+    <!--Page content-->
+    <div class="flexbox">
+      <header>
+        <div class="slogan">
+          <h1>What is this place?</h1>
+          <p>Developing apps and making smiles since 2013</p>
+          <a href="../contact/contact.html"><button>Contact Us</button></a>
+          <div id="leftsmall" class="bubbles"></div>
+          <div id="leftlarge" class="bubbles"></div>
+          <div id="rightsmall" class="bubbles"></div>
+          <div id="rightmedium" class="bubbles"></div>
+          <div id="rightlarge" class="bubbles"></div>
+        </div>
+      </header>
+
+      <div class="body1">
+        <div id="tinybubble"></div>
+        <div id="smallbubble"></div>
+        <div id="mediumbubble"></div>
+        <div class="textbox1">
+          <img src="../../assets/images/icons/orangecircles.svg" id="orangecircles" alt="Orange Circles Icon">
+          <h2 id="h11">Creating Together since 2013</h2>
+          <p id="p">Complex projects are the drive that motivates us. Passion is the glue which keeps us together. Our love for technology and design keeps us focused, agile and primed for new challenges</p>
+          <br>
+          <img src="../../assets/images/icons/bluecube.svg" id="bluecube" alt="Blue Cubes Icon">
+          <h2 id="h12">From Concept to Completion</h2>
+          <p>Our robust and dynamic team of developers possess the capabilites to realise and manifest your ideas into the app you've been designing in your head. Through a personal understanding, we will ensure that your content is coherent to your brand
+            and meets your digital needs, all the while surpassing modern design standards.</p>
+        </div>
+      </div>
+      <div class="body2">
+        <div class="textbox2">
+          <img src="../../assets/images/shapes.svg" id="shapes" alt="Shapes Icon">
+          <h2>Meet The Team</h2>
+          <p>These are the faces behind the magic. Our team is consistently chasing new opportunities and pushing the boundaries to develop our skillset and experience.</p>
+        </div>
+        <div class="cardcontainer">
+          <div class="jolon" id="jolon">
+            <div class="profilepicture">
+              <img src="../../assets/images/profilepictures/jolon.jpg" alt="Jolon Faichney Profile Picture">
+              <div class="bio">
+                <h6>Dr. Jolon Faichney</h6>
+                <p>Managing Director</p>
+              </div>
+            </div>
+          </div>
+          <div class="tommi" id="tommi">
+            <div class="profilepicture">
+              <img src="../../assets/images/profilepictures/tommi.jpg" alt="Tommi Sullivan Profile Picture">
+              <div class="bio">
+                <h6>Tommi Sullivan</h6>
+                <p>Project Manager/Full-Stack Developer</p>
+              </div>
+            </div>
+          </div>
+          <div class="dylan" id="dylan">
+            <div class="profilepicture">
+              <img src="../../assets/images/profilepictures/dylan.jpg" alt="Dylan Birot Profile Picture">
+              <div class="bio">
+                <h6>Dylan Birot</h6>
+                <p>UX/UI Designer/Frontend Developer</p>
+              </div>
+            </div>
+          </div>
+          <div class="callum" id="callum">
+            <div class="profilepicture">
+              <img src="../../assets/images/profilepictures/callum.jpg" alt="Callum Lawson-Smith Profile Picture">
+              <div class="bio">
+                <h6>Callum Lawson-Smith</h6>
+                <p>Backend/Frontend Developer</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <footer>
+      <div>
+        <img src="../../assets/images/AFLogo.svg" alt="App Factory Logo - Footer">
+        <h4>App Factory</h4>
+        <a href="../about/about.html"></a>
+        <p>App Factory is a leading app development team on the Gold Coast bassed in the School of Information and Communication Technology, Griffith University.</p>
+        <p>&copy; Copyright 2015 | App Factory</p>
+      </div>
+    </footer>
+  </body>

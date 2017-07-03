@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="portfolio-mobile.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="../../js/mobile/portfolio.js"></script>
+    <!--Favicons-->
+    <link rel="shortcut icon" href="assets/images/favicons/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" sizes="57x57" href="assets/images/favicons/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="assets/images/favicons/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/images/favicons/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/images/favicons/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/images/favicons/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="assets/images/favicons/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="assets/images/favicons/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="assets/images/favicons/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="assets/images/favicons/favicon-16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="assets/images/favicons/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="assets/images/favicons/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="assets/images/favicons/android-chrome-192x192.png" sizes="192x192">
+    <!--End Favicons-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script type="text/javascript">
+      window.onresize = function(event) {
+        if (window.innerWidth > 768) {
+          document.location = "portfolio.html";
+          }
+      };
+    </script>
+  </head>
+
+  <body>
+
+
+    <nav>
+      <a href="index.html"><img src="../../assets/images/AFLogo.svg" id="logo" alt="App Factory Logo"></a>
+      <h1>App Factory</h1>
+      <img src="../../assets/images/icons/burgerbutton.svg" id="menu" onclick="showMenu()">
+      <img src="../../assets/images/icons/menuclosebtn.svg" id="x" onclick="hideMenu()" alt="Mobile Menu Close Button">
+    </nav>
+
+    <div id="menubox">
+        <ul>
+            <li><a href="../../mobile.html">Home</a></li>
+            <li><a href="../about/about-mobile.html">About</a></li>
+            <li><a href="../portfolio/portfolio-mobile.html">Portfolio</a></li>
+            <li><a href="../contact/contact-mobile.html">Contact</a></li>
+        </ul>
+    </div>
+
+    <div class="flexbox">
+      <header>
+        <div class="slogan">
+          <h1>What is this place?</h1>
+          <p>We create unique digital experiences and mobile solutions, and this is where you can find them.</p>
+          <a href="../contact/contact-mobile.html"><button id="enquirebutton">Make Enquiry</button></a>
+        </div>
+      </header>
+
+
+      <div class="flex">
+        <div class="textbox1">
+          <h1>Mobile Solutions, Reinvented</h1>
+          <p>Specialists in developing mobile applications with seamless navigation and beatiful design. Specialising in providing a platform for university undergraduates to develop mobile applications with seamless navigation and beatiful design.</p>
+        </div>
+
+        <div class="clinihelp">
+          <h1>CliniHelp</h1>
+          <p>The App Factory team is comprised of diversly skilled and specialised digital enthusiasts. Going above and beyond where we can to provide future-focused mobile solutions of all scopes and sizes.</p>
+          <img class="showcase1-mockup" src="/assets/images/mockups/aboutmockup1.png" alt="Clini Help App" />
+          <button>Download Now</button>
+        </div>
+
+        <div class="gc-access">
+          <h1>GC Access</h1>
+          <p>The App Factory team is comprised of diversly skilled and specialised digital enthusiasts. Going above and beyond where we can to provide future-focused mobile solutions of all scopes and sizes.</p>
+          <img class="showcase2-mockup" src="/assets/images/mockups/aboutmockup2.png"  alt="AccessGC App"/>
+          <button>Download Now</button>
+        </div>
+
+        <div class="gc-dog-parks">
+          <h1>GC Dog Parks</h1>
+          <p>The App Factory team is comprised of diversly skilled and specialised digital enthusiasts. Going above and beyond where we can to provide future-focused mobile solutions of all scopes and sizes.</p>
+          <img class="showcase3-mockup" src="/assets/images/mockups/aboutmockup3.png" alt="GC Dog Parks App" />
+          <button>Download Now</button>
+        </div>
+
+
+      </div>
+      </div>
+      <footer id="footer">
+        <div>
+            <img src="../../assets/images/AFLogo.svg" alt="App Factory Logo">
+            <h4>App Factory</h4>
+            <p>App Factory is a leading app development team on the Gold Coast based in the School of Information and Communication Technology, Griffith University.</p>
+            <p>&copy; Copyright 2015 | App Factory</p>
+        </div>
+      </footer>
+  </body>
+
+</html>

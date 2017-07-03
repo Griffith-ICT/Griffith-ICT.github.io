@@ -1,0 +1,440 @@
+html {
+  height: 100%;
+  font-family: "Helvetica", sans-serif;
+  width: 100%;
+}
+
+body {
+  width: 100%;
+  padding: 0;
+  margin-left: 0;
+  margin-right: 0;
+  overflow-x: hidden;
+}
+
+nav {
+  width: 100vw;
+  background-color: rgba(255, 255, 255, 0.95);
+  box-shadow: -5px 0px 2px #444;
+  height: 65px;
+  position: fixed;
+  top: 0;
+  z-index: 111;
+}
+#logo {
+  position: relative;
+  width: auto;
+  height: 32px;
+  margin-left: 3.5vw;
+  margin-top: 16px;
+}
+
+#menu {
+  float: right;
+  height: 28px;
+  width: auto;
+  margin-top: 18px;
+  margin-right: 20px;
+}
+
+#x {
+  float: right;
+  height: 30px;
+  width: auto;
+  margin-top: 15px;
+  margin-right: 23px;
+  display: none;
+}
+
+nav h1 {
+  display: inline-block;
+  position: absolute;
+  font-family: "Helvetica", sans-serif;
+  font-weight: lighter;
+  margin-left: 15px;
+  margin-top: 20px;
+  font-size: 1.2em;
+}
+
+nav ul {
+  position: relative;
+  float: right;
+  margin-right: 60px;
+  display: none;
+}
+
+nav ul li {
+  margin-right: 60px;
+  font-family: "Helvetica", sans-serif;
+  display: inline;
+  list-style-type: none;
+  font-size: 0.9em;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+#home:hover {
+  color: #FF9D3C
+}
+
+#about:hover {
+  color: #FF0080;
+}
+
+#portfolio:hover {
+  color: #BA00FF;
+}
+
+nav button {
+  background: -webkit-linear-gradient(left, #FF9D3C, #BA00FF);
+  background: -moz-linear-gradient(left, #FF9D3C, #BA00FF);
+  background: -o-linear-gradient(left, #FF9D3C, #BA00FF);
+  background: linear-gradient(to right, #FF9D3C, #BA00FF);
+  width: 150px;
+  height: 45px;
+  border: none;
+  border-radius: 30px;
+  font-size: 0.9em;
+  font-family: "Helvetica", sans-serif;
+  color: white;
+  margin-top: -3px;
+}
+
+nav button:hover {
+  background: white;
+  font-size: 0.9em;
+  font-family: "Helvetica", sans-serif;
+  color: black;
+  border: 2px solid #BA00FF;
+}
+
+nav button:focus {
+  outline: 0;
+}
+
+nav button:active {
+  outline: none;
+}
+
+
+
+/*----Menu----*/
+
+#menubox {
+  width: 100vw;
+  margin-top: 65px;
+  top: 0;
+  height: calc(100vh - 65px);
+  padding: 0;
+  position: absolute;
+  z-index: 1000;
+  color: white;
+  position: absolute;
+  flex-direction: column;
+  justify-content: center;
+  background: linear-gradient(220deg, #5700ed, #f40098);
+  margin-left: 100vw;
+  display: none;
+  position: fixed;
+}
+
+#menubox img {
+  width: 6vw;
+  height: auto;
+  bottom:  0;
+  position: absolute;
+  margin-left: 3.5vw;
+  margin-top: 3vh;
+  top: 0;
+}
+
+#menubox ul {
+  text-align: center;
+  margin: 0 auto;
+  width: 80%;
+  padding: 0;
+}
+
+#menubox ul li {
+  list-style-type: none;
+  font-size: 5vh;
+  font-weight: bold;
+  line-height: 2em;
+}
+
+#menubox a {
+  color: white;
+  text-decoration: none;
+}
+
+#menubox a:visited {
+  color: white;
+}
+
+
+/*----Header----*/
+
+.flexbox {
+    display: block;
+}
+
+header {
+  width: 100%;
+  min-height: 550px;
+  height: 85vh;
+  margin-top: 65px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  overflow: hidden;
+  background: -webkit-linear-gradient(110deg, #3B00FF, #FF0080);
+  background: -moz-linear-gradient(110deg, #3B00FF, #FF0080);
+  background: -o-linear-gradient(110deg, #3B00FF, #FF0080);
+  background: linear-gradient(200deg, #3B00FF, #FF0080);
+}
+
+header img {
+  width: 45%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.slogan {
+  position: relative;
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+  width: 80%;
+}
+
+.slogan h1 {
+  font-size: 1.8em;
+  -webkit-font-smoothing: antialiased;
+}
+
+.slogan p {
+  font-size: 1em;
+  margin-top: 3em;
+  line-height: 2;
+  -webkit-font-smoothing: antialiased;
+}
+
+header button {
+  background-color: white;
+  width: 180px;
+  height: 50px;
+  border: none;
+  border-radius: 30px;
+  font-size: 1em;
+  font-family: "Helvetica", sans-serif;
+  color: deeppink;
+  margin: 0 auto;
+  position: relative;
+  margin-top: 1.5em;
+  display: block;
+  box-shadow: 0px 0px 3px #666;
+}
+
+header button:hover {
+  background: none;
+  color: white;
+  border: 2px solid white;
+}
+
+header button:focus {
+  outline: none;
+}
+
+header a {
+  text-decoration: none;
+}
+/*----Body----*/
+
+.body1 {
+  min-height: 450px;
+  max-height: 850px;
+  display: inline-block;
+}
+
+#h11 {
+    color: deeppink;
+}
+
+#h12 {
+  color: blueviolet;
+}
+
+.textbox1 {
+    width: 85%;
+    margin-left: 2em;
+    margin-top: 3em;
+}
+
+.textbox1 h2 {
+    font-size: 1.5em;
+}
+
+.textbox1 p {
+    line-height: 1.8em;
+}
+
+
+/*----Body2----*/
+
+.body2 {
+  background: linear-gradient(140deg, #3B00FF, #FF0080);
+  height: 800px;
+  color: white;
+  text-align: center;
+  margin-top: 1.5em;
+  display: inline-block;
+}
+
+.textbox2 {
+  margin-top: 1.8em;
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 1.5em;
+  line-height: 2;
+}
+
+.cardcontainer1 {
+  width: 100%;
+  height: 30%;
+  margin: 0 auto;
+  margin-top: 5em;
+}
+
+.cardcontainer2 {
+  width: 100%;
+  height: 30%;
+  margin: 0 auto;
+  margin-top: 1em;
+}
+
+.profilecard {
+  width: 175px;
+  height: 230px;
+  background-color: white;
+  opacity: 0.95;
+  margin-bottom: 1em;
+  display: inline-flex;
+}
+
+.leftcard {
+  margin-right: 5%;
+}
+
+.profileimg {
+  position: absolute;
+  width: 100px;
+  height: 0;
+  border-radius: 50%;
+  padding-bottom: 25%;
+  margin-left: 38px;
+  margin-top: 15px;
+}
+
+#callum, #dylan, #tommi, #jolon {
+  width: 100%;
+  border-radius: 100%;
+}
+
+.bio {
+  width: 95%;
+  margin-top: 80%;
+  color: black;
+}
+
+.bio h5 {
+  font-size: 0.8em;
+}
+
+.bio p {
+  font-size: 0.6em;
+  font-weight: bold;
+  margin-top: -5%;
+}
+
+#smith {
+  color: blue;
+}
+
+#birot {
+  color: darkviolet;
+}
+
+#sullivan {
+  color: mediumvioletred
+}
+
+#faichney {
+  color: deeppink;
+}
+
+
+/*----Footer----*/
+
+footer {
+  width: 100%;
+  height: 200px;
+}
+
+footer div {
+  width: 80%;
+  margin-top: 2em;
+  margin-left: 2em;
+}
+
+footer img {
+  height: 35px;
+  width: auto;
+  display: block;
+  position: absolute;
+  margin-top: 1.5em;
+}
+
+footer h4 {
+  display: inline-block;
+  margin-left: 3em;
+  margin-top: 2em;
+}
+
+footer p {
+  font-size: 0.8em;
+  line-height: 1.5em;
+  color: #333;
+}
+
+
+/*----Ipad Styles----*/
+/*
+@media screen and (min-height: 800px) {
+
+.body2 {
+  background: linear-gradient(140deg, #3B00FF, #FF0080);
+  height: 100vh;
+  color: white;
+  text-align: center;
+  margin-top: 1.5em;
+  display: inline-block;
+}
+
+.cardcontainer1 {
+  width: 100%;
+  height: 40%;
+  margin: 0 auto;
+}
+
+.cardcontainer2 {
+  width: 100%;
+  height: 40%;
+  margin: 0 auto;
+  margin-top: 1em;
+}
+}
+*/

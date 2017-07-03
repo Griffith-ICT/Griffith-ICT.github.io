@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Contact Us</title>
+    <link rel="stylesheet" type="text/css" href="contact-mobile.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="../../js/mobile/contact.js"></script>
+
+    
+    <!--Favicons-->
+    <link rel="shortcut icon" href="assets/images/favicons/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" sizes="57x57" href="assets/images/favicons/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="assets/images/favicons/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/images/favicons/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/images/favicons/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/images/favicons/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="assets/images/favicons/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="assets/images/favicons/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="assets/images/favicons/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="assets/images/favicons/favicon-16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="assets/images/favicons/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="assets/images/favicons/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="assets/images/favicons/android-chrome-192x192.png" sizes="192x192">
+    <!--End Favicons-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script type="text/javascript">
+      window.onresize = function(event) {
+        if (window.innerWidth > 768) {
+          document.location = "contact.html";
+          }
+      };
+    </script>
+  </head>
+
+  <body id="body">
+
+    <nav>
+      <a href="index.html"><img src="../../assets/images/AFLogo.svg" id="logo" alt="App Factory Logo"></a>
+      <h1>App Factory</h1>
+      <img src="../../assets/images/icons/burgerbutton.svg" id="menu" onclick="showMenu()" alt="Moble Menu">
+      <img src="../../assets/images/icons/menuclosebtn.svg" id="x" onclick="hideMenu()" alt="Mobile Menu Close Button">
+    </nav>
+
+    <div id="menubox">
+        <ul>
+            <li><a href="../../mobile.html">Home</a></li>
+            <li><a href="../about/about-mobile.html">About</a></li>
+            <li><a href="../portfolio/portfolio-mobile.html">Portfolio</a></li>
+            <li><a href="../contact/contact-mobile.html">Contact</a></li>
+        </ul>
+    </div>
+
+    <div class="flexbox" id="flexbox">
+      <header>
+        <div class="slogan">
+          <h1>Let's Chat</h1>
+          <p>We create unique digital experiences and mobile solutions, and this is where you can find them.</p>
+          <button id="enquirebutton">Get Started</button>
+        </div>
+      </header>
+
+
+      <div class="flex">
+        <div class="textbox1" id="textbox1">
+          <h1>So... what can we do for you?</h1>
+          <p>Before we get started, we need to get a better understanding of what you want you app to be able to do. Unfortunately we cant read minds, so we're going to need to to complete a few questions for us.</p>
+           <a class="typeform-share link" href="https://projectpanda.typeform.com/to/grdgJO" data-mode="1"><button id="typeform-btn" target="_blank">Make an Enquiry</button></a>
+<script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm_share',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'share.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}})()</script>
+        </div>
+      </div>
+    </div>
+    <footer id="footer">
+        <div>
+            <img src="../../assets/images/AFLogo.svg" alt="App Factory Logo">
+            <h4>App Factory</h4>
+            <p>App Factory is a leading app development team on the Gold Coast based in the School of Information and Communication Technology, Griffith University.</p>
+            <p>&copy; Copyright 2015 | App Factory</p>
+        </div>
+      </footer>
+  </body>
+
+</html>

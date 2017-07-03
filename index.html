@@ -1,1 +1,131 @@
-initial commit
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>App Factory</title>
+  <link rel="stylesheet" type="text/css" href="index.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="js/desktop/index.js"></script>
+
+<!--- Meta Tags for SEO -->
+  <link rel="canonical" href="http://app-factory.com.au/">
+
+  <meta property="og:locale" content="en_US">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Home - App Factory Griffith University">
+  <meta property="og:url" content="http://app-factory.com.au/">
+  <meta property="og:site_name" content="App Factory Griffith University">
+
+
+    
+  <meta name="description" content="DESCRIPTION IS NEEDED HERE." />
+    
+  <meta name="keywords" content="SEO TAGS ARE NEEDED HERE" />
+
+  <meta property="og:description" content="DESCRIPTION IS NEEDED HERE" />
+
+
+<!-- Meta Tags End Here -->
+
+
+
+  <!--Favicons-->
+  <link rel="shortcut icon" href="assets/images/favicons/favicon.ico" type="image/x-icon" />
+  <link rel="apple-touch-icon" sizes="57x57" href="assets/images/favicons/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="assets/images/favicons/apple-touch-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="assets/images/favicons/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="assets/images/favicons/apple-touch-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="assets/images/favicons/apple-touch-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="assets/images/favicons/apple-touch-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="assets/images/favicons/apple-touch-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="assets/images/favicons/apple-touch-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon-180x180.png">
+  <link rel="icon" type="image/png" href="assets/images/favicons/favicon-16x16.png" sizes="16x16">
+  <link rel="icon" type="image/png" href="assets/images/favicons/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="assets/images/favicons/favicon-96x96.png" sizes="96x96">
+  <link rel="icon" type="image/png" href="assets/images/favicons/android-chrome-192x192.png" sizes="192x192">
+  <!--End Favicons-->
+  <!--Mobile Query-->
+  <script type="text/javascript">
+      window.onresize = function(event) {
+        if (window.innerWidth < 768) {
+          document.location = "mobile.html";
+        }
+      };
+  </script>
+
+  <script type="text/javascript">
+      if (screen.width < 768) {
+        window.location = "mobile.html";
+      }
+  </script>
+</head>
+  
+
+
+<body>
+  <nav>
+    <a href="index.html"><img src="assets/images/AFLogo.svg" id="logo" alt="App Factory Logo"></a>
+    <h1>App Factory</h1>
+    <ul>
+      <li><a href="index.html" id="home">Home</a></li>
+      <li><a href="pages/about/about.html" id="about">About</a></li>
+      <li><a href="pages/portfolio/portfolio.html" id="portfolio">Portfolio</a></li>
+      <a href="pages/contact/contact.html"><button>Contact Us</button></a>
+    </ul>
+  </nav>
+  <!--Background gradients for divs-->
+  <div class="headerbackground"></div>
+  <div class="body2background"></div>
+
+  <!--Page content-->
+  <div class="flexbox">
+    <header>
+      <h1>Developing Amazing Apps</h1>
+      <p>Welcome to the App Factory.<br>Specialists in delivering fast mobile applications with seamless navigation and beautiful design.</p>
+      <a href="pages/contact/contact.html"><button id="enquirebutton">Make Enquiry</button></a>
+      <div class="bubblecontainer">
+        <div id="leftsmall" class="bubbles"></div>
+        <div id="leftmedium" class="bubbles"></div>
+        <div id="leftlarge" class="bubbles"></div>
+        <div id="rightmedium" class="bubbles"></div>
+        <div id="rightlarge" class="bubbles"></div>
+      </div>
+      
+    </header>
+    <div class="body1">
+      <img src="assets/images/mockups/design6.png" id="body1mockup" alt="Design Mockup">
+      <div class="body1-textbox">
+        <img src="assets/images/icons/pinkshapes.svg" id="pinkshapes" alt="Pink Shapes Design">
+        <h2 id="h11">Any Project, Any Size</h2>
+        <p id="p">The App Factory team is comprised of diversely skilled and specialised digital enthusiants. Going above and beyond where we can in order to provide futrue-focused mobile solutions of all scopes and sizes.</p>
+        <img src="assets/images/icons/bluepen.svg" id="bluepen" alt="Blue Pen Design">
+        <h2 id="h12">Professional UX/UI Design</h2>
+        <p>We strongly believe that digital experiences are just as important and impactful as physical ones. We uphold this belief by placing a strong emphasis on delivering a unique and enjoyable experience for our users.</p>
+      </div>
+     
+    </div>
+    <div class="body2">
+      <div class="body2-content">
+        <img src="assets/images/shapestarfall.svg" alt="Small Design with Shapes">
+        <div>
+          <h3 id="seamless">Seamless.</h3>
+          <h3 id="elegant">Elegant.</h3>
+          <h3 id="powerful">Powerful.</h3>
+        </div>
+        <p>Seamless Navigation. Elegant Design. Powerful Functionality</p>
+        <a href="pages/portfolio/portfolio.html"><button>View our Works</button></a>
+      </div>
+    </div>
+  </div>
+  
+  <footer>
+      <div>
+        <img src="../../assets/images/AFLogo.svg" alt="App Factory Logo - Footer">
+        <h4>App Factory</h4>
+        <a href="../about/about.html"></a>
+        <p>App Factory is a leading app development team on the Gold Coast bassed in the School of Information and Communication Technology, Griffith University.</p>
+        <p>&copy; Copyright 2015 | App Factory</p>
+      </div>
+    </footer>
+</body>

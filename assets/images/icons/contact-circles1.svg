@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="10390.044 1172 444.452 454.675">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient-2);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="0.124" y1="0.072" x2="0.815" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="aqua"/>
+      <stop offset="1" stop-color="#0062ff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.124" y1="0.072" x2="0.815" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#eb00ff"/>
+      <stop offset="1" stop-color="#ffd800"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_102" data-name="Group 102" transform="translate(8679)">
+    <path id="Path_963" data-name="Path 963" class="cls-1" d="M44.574.5A44.074,44.074,0,1,1,.5,44.574,44.074,44.074,0,0,1,44.574.5Z" transform="translate(1720.025 1171.5)"/>
+    <path id="Path_961" data-name="Path 961" class="cls-2" d="M160.648,0A160.648,160.648,0,1,1,0,160.648,160.648,160.648,0,0,1,160.648,0Z" transform="matrix(-0.839, -0.545, 0.545, -0.839, 1980.505, 1626.675)"/>
+  </g>
+</svg>

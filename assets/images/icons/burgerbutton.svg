@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="9210.523 22.7 31.556 26.555">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-3 {
+        fill: url(#linear-gradient);
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect class="cls-1" width="31.556" height="26.555"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="-0.04" x2="1.03" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ff6e6e"/>
+      <stop offset="1" stop-color="#ba00ff"/>
+    </linearGradient>
+  </defs>
+  <g id="Repeat_Grid_1" data-name="Repeat Grid 1" class="cls-2" transform="translate(9210.523 22.7)">
+    <g id="Group" transform="translate(-347.523 -20.7)">
+      <rect id="Rectangle_301" data-name="Rectangle 301" class="cls-3" width="31.556" height="4.555" rx="2.278" transform="translate(347.523 20.7)"/>
+    </g>
+    <g id="Group-2" data-name="Group" transform="translate(-347.523 -10.7)">
+      <rect id="Rectangle_301-2" data-name="Rectangle 301" class="cls-3" width="31.556" height="4.555" rx="2.278" transform="translate(347.523 20.7)"/>
+    </g>
+    <g id="Group-3" data-name="Group" transform="translate(-347.523 -0.7)">
+      <rect id="Rectangle_301-3" data-name="Rectangle 301" class="cls-3" width="31.556" height="4.555" rx="2.278" transform="translate(347.523 20.7)"/>
+    </g>
+  </g>
+</svg>

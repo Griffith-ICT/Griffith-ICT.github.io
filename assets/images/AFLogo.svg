@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="4149.563 3999 39 39">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="0.099" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#e200ff"/>
+      <stop offset="1" stop-color="#ff8900"/>
+    </linearGradient>
+  </defs>
+  <g id="AFLogo" transform="translate(4149.577 3999.022)">
+    <g id="Ebene_1" data-name="Ebene 1" transform="translate(-0.014 -0.022)">
+      <path id="Path_166" data-name="Path 166" class="cls-1" d="M36.825,0a2.167,2.167,0,0,0-2.167,2.167V19.5A15.168,15.168,0,1,1,17.318,4.486v4.4a10.834,10.834,0,1,0,13,10.617L30.4,2.167a2.167,2.167,0,1,0-4.333,0L25.985,19.5a6.5,6.5,0,1,1-6.5-6.5,2.167,2.167,0,0,0,2.167-2.167V2.167A2.167,2.167,0,0,0,19.488,0a19.5,19.5,0,1,0,19.5,19.5V2.167A2.167,2.167,0,0,0,36.825,0Z" transform="translate(0.014 0)"/>
+    </g>
+  </g>
+</svg>
