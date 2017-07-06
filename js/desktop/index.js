@@ -8,42 +8,61 @@ $(document).scroll(function() {
 /*----Hover effects for header bubbles----*/
 
 $(document).ready(function() {
-    $("#leftsmall").mouseenter(function() {
-        $("#leftsmall").animate({padding: "+=0.2%"});
-    });
-    $("#leftsmall").mouseleave(function() {
-        $("#leftsmall").animate({padding: "-=0.2%"});
-    });
+   	$("#about-tinycircle").mouseenter(function() {
+		$(this).animate({
+			padding: "+=0.6%"
+		});
+	});
+	$("#about-tinycircle").mouseleave(function() {
+		$(this).animate({
+			padding: "-=0.6%"
+		});
+	});
 
 
-    $("#leftlarge").mouseenter(function() {
-        $("#leftlarge").animate({padding: "+=0.5%"});
-    });
-    $("#leftlarge").mouseleave(function() {
-        $("#leftlarge").animate({padding: "-=0.5%"});
-    });
+	$("#about-tinycircle2").mouseenter(function() {
+		$(this).animate({
+			padding: "+=0.6%"
+		});
+	});
+	$("#about-tinycircle2").mouseleave(function() {
+		$(this).animate({
+			padding: "-=0.6%"
+		});
+	});
 
 
-    $("#leftmedium").mouseenter(function() {
-        $("#leftmedium").animate({padding: "+=0.4%"});
-    });
-    $("#leftmedium").mouseleave(function() {
-        $("#leftmedium").animate({padding: "-=0.4%"});
-    });
+	$("#about-smallcircle").mouseenter(function() {
+		$(this).animate({
+			padding: "+=0.6%"
+		});
+	});
+	$("#about-smallcircle").mouseleave(function() {
+		$(this).animate({
+			padding: "-=0.6%"
+		});
+	});
 
 
-    $("#rightmedium").mouseenter(function() {
-        $("#rightmedium").animate({padding: "+=0.4%"});
-    });
-    $("#rightmedium").mouseleave(function() {
-        $("#rightmedium").animate({padding: "-=0.4%"});
-    });
+	$("#about-mediumcircle").mouseenter(function() {
+		$(this).animate({
+			padding: "+=0.6%"
+		});
+	});
+	$("#about-mediumcircle").mouseleave(function() {
+		$(this).animate({
+			padding: "-=0.6%"
+		});
+	});
 
-
-    $("#rightlarge").mouseenter(function() {
-        $("#rightlarge").animate({padding: "+=0.4%"});
-    });
-    $("#rightlarge").mouseleave(function() {
-        $("#rightlarge").animate({padding: "-=0.4%"});
-    });
+	$("#about-largecircle").mouseenter(function() {
+		$(this).animate({
+			padding: "+=0.6%"
+		});
+	});
+	$("#about-largecircle").mouseleave(function() {
+		$(this).animate({
+			padding: "-=0.6%"
+		});
+	});
 });

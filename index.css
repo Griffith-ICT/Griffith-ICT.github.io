@@ -1,3 +1,4 @@
+
 * {
   font-family: 'Helvetica Neue', Helvetica, sans-serif;
   margin: 0;
@@ -5,38 +6,35 @@
 }
 
 
-/*----Keyframes----*/
-
-@keyframes leftsmall {
-  0% {margin-left: 100px; margin-top: -100px;}
-  50% {margin-left: 1100px; margin-top: 200px;}
-  100% {margin-left: 100px; margin-top: -100px;}
+@keyframes tinycircle {
+  0% {margin-left: 200px; margin-top: -150px;}
+  50% {margin-left: 190px; margin-top: -150px;}
+  100% {margin-left: 200px; margin-top: -150px;}
 }
 
-@keyframes leftmedium {
-  0% {margin-left: -90px; margin-top: 100px;}
-  50%{margin-left: -100px; margin-top: 103px;}
-  100% {margin-left: -90px; margin-top: 100px;}
+@keyframes smallcircle {
+  0% {margin-left: 1220px; margin-top: 110px;}
+  50% {margin-left: 1210px; margin-top: 110px;}
+  100% {margin-left: 1220px; margin-top: 110px;}
 }
 
-@keyframes leftlarge {
-  0% {margin-left: 1000px; margin-top: 220px;}
-  50% {margin-left: 1000px; margin-top: 210px;}
-  100% {margin-left: 1000px; margin-top: 220px;}
+
+@keyframes mediumcircle {
+  0% {margin-left: 1100px; margin-top: -240px;}
+  50% {margin-left: 1110px; margin-top: -250px;}
+  100% {margin-left: 1100px; margin-top: -240px;}
 }
 
-@keyframes rightmedium {
-  0% {margin-left: 950px; margin-top: 80px;}
-  50% {margin-left: 945px; margin-top: 83px;}
-  100% {margin-left: 950px; margin-top: 80px;}
+@keyframes largecircle {
+  0% {margin-left: 30px; margin-top: 90px;}
+  50% {margin-left: 40px; margin-top: 90px;}
+  100% {margin-left: 30px; margin-top: 90px;}
 }
 
-@keyframes rightlarge {
-  0% {margin-left: 1180px; margin-top: 160px;}
-  50% {margin-left: 1190px; margin-top: 160px;}
-  100% {margin-left: 1180px; margin-top: 160px;}
+html {
+overflow-x: hidden;
+font-family: "Helvetica", sans-serif;
 }
-
 
 html {
   height: 100%;
@@ -51,9 +49,9 @@ body {
 }
 
 .flexbox {
-  margin: 0 auto;
-  width: 85%;
   max-width: 1500px;
+  margin: 0 auto;
+  z-index: 101;
 }
 
 /*----Nav----*/
@@ -151,6 +149,18 @@ nav button:active {
 
 /*----Header----*/
 
+.headerbackground {
+  min-width: 100%;
+  height: 800px;
+  background: -webkit-linear-gradient(110deg, #3B00FF, #FF0080);
+  background: -moz-linear-gradient(110deg, #3B00FF, #FF0080);
+  background: -o-linear-gradient(110deg, #3B00FF, #FF0080);
+  background: linear-gradient(200deg, #3B00FF, #FF0080);
+  display: inline-block;
+  position: absolute;
+  overflow-x: visible;
+}
+
 .bubblecontainer {
   width: 85%;
   max-width: 1500px;
@@ -159,50 +169,44 @@ nav button:active {
   position: absolute;
 }
 
-.headerbackground {
+.about-header {
   width: 100%;
   height: 800px;
-  background: -webkit-linear-gradient(50deg, #3B00FF, #FF0080);
-  background: -moz-linear-gradient(50deg, #3B00FF, #FF0080);
-  background: -o-linear-gradient(50deg, #3B00FF, #FF0080);
-  background: linear-gradient(140deg, #3B00FF, #FF0080);
-  display: inline-block;
-  position: absolute;
-}
-
-header {
-  height: 800px;
-  width: 100%;
-  margin-top: 75px;
+  margin: 0 auto;
+  margin-top: 75px !important;
   display: flex;
   justify-content: center;
   flex-direction: column;
+  z-index: 99;
+  position: relative;
+  color: white;
 }
 
-header h1 {
+
+.slogan {
+  display: block;
+  margin: 0 auto !important;
+  text-align: center;
+  position: relative;
+  bottom: 3em;
+}
+
+
+.slogan h1 {
   font-size: 3em;
+  -webkit-font-smoothing: antialiased;
+  margin: 0 auto;
   text-align: center;
   color: white;
-  z-index: 101;
-  margin: 0 auto;
-  padding-bottom: 1em;
-  -webkit-font-smoothing: antialiased;
 }
 
-header p {
+.slogan p {
   font-size: 1em;
-  width: 520px;
+  width: 500px;
+  margin: auto;
   margin-top: 3em;
   line-height: 2;
-  z-index: 101;
-  color: white;
-  margin: 0 auto;
   -webkit-font-smoothing: antialiased;
-  text-align: center;
-}
-
-header a {
-  text-decoration: none;
 }
 
 header button {
@@ -218,77 +222,90 @@ header button {
   position: relative;
   margin-top: 3em;
   display: block;
+  z-index: 1000000;
   box-shadow: 0px 25px 40px rgba(0,0,0,0.1);
 }
 
-header button:hover {
+header a {
+  text-decoration: none;
+}
+
+.about-header button:hover {
   background: none;
   color: white;
   border: 2px solid white;
   cursor: pointer;
-  animation: jello 1s;
 }
 
-header button:focus {
+.about-header button:focus {
   outline: 0;
 }
 
-#leftlarge {
-  position: absolute;
-  border-radius: 50%;
-  background: linear-gradient(120deg, coral, deeppink);
-  padding: 290px;
-  margin-top: -380px;
-  margin-left: -150px;
-  animation: leftlarge infinite;
-  animation-duration: 3s;
-}
-
-#leftsmall {
+.about-tinycircle {
   position: absolute;
   border-radius: 100%;
-  background: linear-gradient(120deg, aqua, dodgerblue);
-  padding: 70px;
-  margin-left: 60px;
-  margin-top: 300px;
-  animation: leftsmall 50s infinite;
-}
-
-#leftmedium {
-  position: absolute;
-  border-radius: 100%;
-  background: linear-gradient(120deg, fuchsia, deeppink, mediumvioletred);
-  padding: 130px;
-  margin-left: 130px;
-  margin-top: 500px;
-  animation: leftmedium 50s infinite;
-}
-
-#rightmedium {
-  position: absolute;
-  border-radius: 100%;
-  background: linear-gradient(120deg, deeppink, coral);
-  padding: 100px;
-  margin-left: 980px;
-  margin-top: 50px;
-  animation: rightmedium infinite;
-  animation-duration: 3s;
-}
-
-#rightlarge {
-  position: absolute;
-  border-radius: 100%;
-  background: linear-gradient(120deg, #ff5050, #ff527d, #d452ff);
+  background: linear-gradient(120deg, #ef00f6, #2400fe);
+  background: -webkit-linear-gradient(120deg, #ef00f6, #2400fe);
+  background: -moz-linear-gradient(120deg, #ef00f6, #2400fe);
+  background: -o-linear-gradient(120deg, #ef00f6, #2400fe);
+  margin-left: 250px;
+  margin-top: 150px;
+  animation: tinycircle infinite 3s;
+  z-index: 100000 !important;
+  float: left;
   padding: 80px;
-  margin-left: 900px;
-  margin-top: 450px;
-  animation: rightlarge infinite;
-  animation-duration: 3s;
+}
+
+
+.about-smallcircle {
+  position: absolute;
+  border-radius: 100%;
+  margin-left: 1000px;
+  margin-top: -210px;
+  background: -webkit-linear-gradient(90deg, #E200FF, #009DFF);
+  background: -moz-linear-gradient(90deg, #E200FF, #009DFF);
+  background: -o-linear-gradient(90deg, #E200FF, #009DFF);
+  background: linear-gradient(90deg, #E200FF, #009DFF);
+  z-index: 98;
+  animation: smallcircle infinite 3s;
+  padding: 75px;
+}
+
+.about-mediumcircle {
+  border-radius: 100%;
+  margin-left: 1100px; 
+  margin-top: -240px;
+  background: linear-gradient(30deg, #FFD800, #EB00FF);
+  z-index: 98;
+  padding: 100px;
+  animation: mediumcircle infinite 3s;
+  animation-delay: 0.5s;
+  border-radius: 100%;
+  position: absolute;
+}
+
+
+.about-largecircle {
+  position: absolute;
+  border-radius: 100%;
+  margin-left: 50px;
+  margin-top: -130px;
+  background: -webkit-linear-gradient(90deg, orangered, coral);
+  background: -moz-linear-gradient(90deg, orangered, coral);
+  background: -o-linear-gradient(90deg, orangered, coral);
+  background: linear-gradient(90deg, orangered, coral);
+  z-index: 100;
+  padding: 145px;
+  animation: largecircle infinite 3s;
 }
 
 
 /*----Body1-----*/
 
+.body-container {
+  width: 91.5%;
+  margin: auto;
+}
 
 .body1 {
   height: 800px;
@@ -585,21 +602,21 @@ footer p {
 
 #pinkshapes {
   height: auto;
-  width: 1.8em;
+  width: 2.8em;
   display: inline-block;
   position: absolute;
-  margin-top: 1em;
 }
 
 #bluepen {
   height: auto;
-  width: 1.8em;
+  width: 2.8em;
   display: inline-block;
-  margin-top: -0.2em;
+  margin-top: -0.3em;
   position: absolute;
 }
 
 #h11 {
+  padding-bottom: 1em;
   color: #e600e6;
   font-size: 2em;
   display: inline-block;
@@ -608,6 +625,7 @@ footer p {
 
 #h12 {
   color: #3399ff;
+  padding-bottom: 1em;
   font-size: 2em;
   display: inline-block;
   margin-left: 2em;
@@ -662,11 +680,30 @@ footer p {
   .body1-textbox {
     width: 48%;
     margin-left: 1em;
-    margin-top: 3em;
+    margin-top: 0.8em;
 }
 
+  #pinkshapes {
+    display: none;
+  }
 
-}
+  #h11 {
+    margin-left: 0;
+    font-size: 1.7em;
+    padding-bottom: 1em;
+
+
+  }
+
+  #bluepen {
+    display: none;
+  }
+
+  #h12 {
+    margin-left: 0;
+    font-size: 1.7em;
+    padding-bottom: 1em;
+  }
 
 
 
@@ -680,4 +717,29 @@ footer p {
   .body1-textbox {
     width: 80%;
   }
+}
+
+@media (max-width: 1170px) {
+
+ 
+.about-tinycircle {
+  display: none;
+}
+
+.about-tinycircle2,  {
+  display: none;
+}
+
+.about-smallcircle {
+  display: none;
+}
+
+.about-mediumcircle {
+  display: none;
+}
+
+
+.about-largecircle {
+  display: none;
+ }
 }

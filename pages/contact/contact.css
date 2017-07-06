@@ -228,8 +228,9 @@ header button {
   position: relative;
   margin-top: 3em;
   display: block;
+  z-index: 1000000;
   box-shadow: 0px 25px 40px rgba(0,0,0,0.1);
-}
+
 }
 
 
@@ -457,7 +458,7 @@ footer p {
 }
 
 
-@media (max-width: 1399px) {
+@media (max-width: 1170px) {
 
   #leftsmall {
   display: none;

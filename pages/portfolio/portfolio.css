@@ -1,9 +1,8 @@
-
-
 * {
-  font-family: 'Helvetica Neue', Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica Neue', Helvetica , sans-serif;
 }
-
 
 @keyframes tinycircle {
   0% {margin-left: 250px; margin-top: 150px;}
@@ -43,11 +42,7 @@ font-family: "Helvetica", sans-serif;
 }
 
 /*----Body----*/
-* {
-    margin: 0;
-    padding: 0;
-    font-family: 'Helvetica Neue', Helvetica , sans-serif;
-}
+
 
 .container {
     max-width: 1500px;
@@ -227,6 +222,7 @@ header button {
   position: relative;
   margin-top: 3em;
   display: block;
+  z-index: 1000000;
   box-shadow: 0px 25px 40px rgba(0,0,0,0.1);
 }
 
@@ -673,7 +669,7 @@ footer p {
   margin: auto;
   width: 85%;
   line-height: 2;
-  padding-bottom: 1em;
+  margin-bottom: -8em;
 
 }
 
@@ -730,7 +726,7 @@ footer p {
   width: 85%;
   float: none;
   line-height: 2;
-  padding-bottom: 1em;
+  margin-bottom: -8em;
 
 }
 
@@ -781,7 +777,7 @@ footer p {
   margin: auto;
   width: 85%;
   line-height: 2;
-  padding-bottom: 1em;
+  margin-bottom: -8em;
 
 }
 
@@ -821,12 +817,16 @@ footer p {
   clear: both;
 }
 
+}
 
+@media (max-width: 1170px) {
+
+ 
 .about-tinycircle {
   display: none;
 }
 
-.about-tinycircle2 {
+.about-tinycircle2,  {
   display: none;
 }
 
@@ -841,7 +841,5 @@ footer p {
 
 .about-largecircle {
   display: none;
+ }
 }
-
-}
-
