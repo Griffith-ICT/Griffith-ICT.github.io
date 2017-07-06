@@ -1,5 +1,7 @@
 * {
   font-family: 'Helvetica Neue', Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 
@@ -165,6 +167,7 @@ nav button:active {
   width: 85%;
   max-width: 1500px;
   height: 800px;
+  top: 0;
   position: absolute;
 }
 
@@ -190,22 +193,23 @@ header {
 
 header h1 {
   font-size: 3em;
+  text-align: center;
   color: white;
   z-index: 101;
   margin: 0 auto;
+  padding-bottom: 1em;
   -webkit-font-smoothing: antialiased;
 }
 
 header p {
   font-size: 1em;
+  width: 520px;
   margin-top: 3em;
   line-height: 2;
   z-index: 101;
   color: white;
   margin: 0 auto;
-  margin-top: 1em;
   -webkit-font-smoothing: antialiased;
-  
   text-align: center;
 }
 
@@ -219,13 +223,14 @@ header button {
   height: 50px;
   border: none;
   border-radius: 30px;
-  font-size: 1em;
+  font-size: 0.9em;
   font-family: "Helvetica", sans-serif;
   color: #c200b3;
   margin: 0 auto;
   position: relative;
   margin-top: 3em;
   display: block;
+  box-shadow: 0px 25px 40px rgba(0,0,0,0.1);
 }
 
 header button:hover {
@@ -293,6 +298,7 @@ header button:focus {
   animation-duration: 3s;
 }
 
+
 /*----Body1-----*/
 
 
@@ -306,12 +312,13 @@ header button:focus {
 
 .body1-textbox {
   width: 700px;
+  padding-top: 4em;
   margin-left: 1em;
   margin-top: 3em;
 }
 
 .body1 p {
-  margin-top: 0.3em;
+  margin-top: 2em;
   line-height: 2em;
 }
 
@@ -320,14 +327,13 @@ header button:focus {
   width: 3em;
   display: inline-block;
   position: absolute;
-  margin-top: 1em;
+  margin-top: -0.3em;
 }
 
 #bluepen {
   height: auto;
   width: 3em;
   display: inline-block;
-  margin-top: 1em;
   position: absolute;
 }
 
@@ -381,13 +387,13 @@ header button:focus {
 }
 
 #body1mockup {
-  height: 700px;
-  width: 650px;
+  width: 400px;
+  height: auto;
   display: none;
   float: right;
   right: 0;
   position: absolute;
-  margin-top: 50px;
+  margin-top: 100px;
 }
 
 #aboutmockup2 {
@@ -439,11 +445,13 @@ header button:focus {
 .body2-content div h3 {
   color: white;
   font-size: 2em;
+  margin-top: 1.4em;
   display: inline-block;
   -webkit-font-smoothing: antialiased;
 }
 
 .body2-content p {
+  margin-top: 2em;
   color: white;
   font-size: 1em;
 }
@@ -639,7 +647,8 @@ footer p {
   }
 
   #body1mockup {
-    width: 35%;
+    width: 370px;
+    margin-top: 50px;
     height: auto;
   }
 
@@ -659,6 +668,21 @@ footer p {
   }
 
 }
+
+@media screen and (max-width: 1159px) {
+
+  .body1-textbox {
+    width: 48%;
+    margin-left: 1em;
+    margin-top: 3em;
+}
+
+
+}
+
+
+
+
 
 @media screen and (max-width: 1006px) {
   #body1mockup {
