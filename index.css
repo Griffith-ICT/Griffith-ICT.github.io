@@ -8,21 +8,21 @@
 /*----Keyframes----*/
 
 @keyframes leftsmall {
-  0% {margin-left: 60px; margin-top: 300px;}
-  50% {margin-left: 70px; margin-top:305px;}
-  100% {margin-left: 60px; margin-top: 300px;}
+  0% {margin-left: 100px; margin-top: -100px;}
+  50% {margin-left: 1100px; margin-top: 200px;}
+  100% {margin-left: 100px; margin-top: -100px;}
 }
 
 @keyframes leftmedium {
-  0% {margin-left: 130px; margin-top: 500px;}
-  50%{margin-left: 120px; margin-top: 503px;}
-  100% {margin-left: 130px; margin-top: 500px;}
+  0% {margin-left: -90px; margin-top: 100px;}
+  50%{margin-left: -100px; margin-top: 103px;}
+  100% {margin-left: -90px; margin-top: 100px;}
 }
 
 @keyframes leftlarge {
-  0% {margin-left: -150px; margin-top: -400px;}
-  50% {margin-left: -150px; margin-top: -390px;}
-  100% {margin-left: -150px; margin-top: -400px;}
+  0% {margin-left: 1000px; margin-top: 220px;}
+  50% {margin-left: 1000px; margin-top: 210px;}
+  100% {margin-left: 1000px; margin-top: 220px;}
 }
 
 @keyframes rightmedium {
@@ -30,25 +30,13 @@
   50% {margin-left: 945px; margin-top: 83px;}
   100% {margin-left: 950px; margin-top: 80px;}
 }
-/*
+
 @keyframes rightlarge {
   0% {margin-left: 1180px; margin-top: 160px;}
   50% {margin-left: 1190px; margin-top: 160px;}
   100% {margin-left: 1180px; margin-top: 160px;}
 }
 
-@keyframes jello {
-  11.1% {transform: none}
-  22.2% {transform: skewX(-6.5deg) skewY(-6.5deg)}
-  33.3% {transform: skewX(3.25deg) skewY(3.25deg)}
-  44.4% {transform: skewX(-2.125deg) skewY(-2.125deg)}
-  55.5% {transform: skewX(1.2625deg) skewY(1.2625deg)}
-  66.6% {transform: skewX(-0.78125deg) skewY(-0.78125deg)}
-  77.7% {transform: skewX(0.390625deg) skewY(0.390625deg)}
-  88.8% {transform: skewX(-0.1953125deg) skewY(-0.1953125deg)}
-  100% {transform: none}
-}
-*/
 
 html {
   height: 100%;
@@ -167,7 +155,7 @@ nav button:active {
   width: 85%;
   max-width: 1500px;
   height: 800px;
-  top: 0;
+  top: 280px;
   position: absolute;
 }
 
@@ -249,7 +237,7 @@ header button:focus {
   position: absolute;
   border-radius: 50%;
   background: linear-gradient(120deg, coral, deeppink);
-  padding: 320px;
+  padding: 290px;
   margin-top: -380px;
   margin-left: -150px;
   animation: leftlarge infinite;
@@ -263,7 +251,7 @@ header button:focus {
   padding: 70px;
   margin-left: 60px;
   margin-top: 300px;
-  animation: leftsmall 3s infinite;
+  animation: leftsmall 50s infinite;
 }
 
 #leftmedium {
@@ -273,7 +261,7 @@ header button:focus {
   padding: 130px;
   margin-left: 130px;
   margin-top: 500px;
-  animation: leftmedium 3s infinite;
+  animation: leftmedium 50s infinite;
 }
 
 #rightmedium {
@@ -457,7 +445,7 @@ header button:focus {
 }
 
 #seamless {
-  font-weight: lighter;
+  font-weight: 200;
 }
 
 #elegant {
