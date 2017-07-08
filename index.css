@@ -6,30 +6,34 @@
 }
 
 
-@keyframes tinycircle {
-  0% {margin-left: 200px; margin-top: -150px;}
-  50% {margin-left: 190px; margin-top: -150px;}
-  100% {margin-left: 200px; margin-top: -150px;}
-}
+  @keyframes tinycircle {
+    0% {margin-left: 200px; margin-top: -150px;}
+    50% {margin-left: 190px; margin-top: -150px;}
+    100% {margin-left: 200px; margin-top: -150px;}
+  }
 
-@keyframes smallcircle {
-  0% {margin-left: 1220px; margin-top: 110px;}
-  50% {margin-left: 1210px; margin-top: 110px;}
-  100% {margin-left: 1220px; margin-top: 110px;}
-}
+  @keyframes smallcircle {
+    0% {margin-left: 1220px; margin-top: 110px;}
+    50% {margin-left: 1210px; margin-top: 110px;}
+    100% {margin-left: 1220px; margin-top: 110px;}
+  }
 
 
-@keyframes mediumcircle {
-  0% {margin-left: 1100px; margin-top: -240px;}
-  50% {margin-left: 1110px; margin-top: -250px;}
-  100% {margin-left: 1100px; margin-top: -240px;}
-}
+  @keyframes mediumcircle {
+    0% {margin-left: 1100px; margin-top: -240px;}
+    50% {margin-left: 1110px; margin-top: -250px;}
+    100% {margin-left: 1100px; margin-top: -240px;}
+  }
 
-@keyframes largecircle {
-  0% {margin-left: 30px; margin-top: 90px;}
-  50% {margin-left: 40px; margin-top: 90px;}
-  100% {margin-left: 30px; margin-top: 90px;}
-}
+  @keyframes largecircle {
+    0% {margin-left: 30px; margin-top: 90px;}
+    50% {margin-left: 40px; margin-top: 90px;}
+    100% {margin-left: 30px; margin-top: 90px;}
+  }
+
+
+
+
 
 html {
 overflow-x: hidden;
@@ -639,10 +643,18 @@ footer p {
 }
 }
 
-@media screen and (max-width: 1290px) {
+@media screen and (max-width: 1170px) {
   .bubblecontainer {
     display: none;
   }
+}
+
+
+@media screen and (max-width: 1353px) {
+.bubblecontainer {
+  margin-left: -5%;
+}
+
 }
 
 
@@ -651,6 +663,8 @@ footer p {
   .body1-textbox {
     width: 60%;
   }
+
+  
 
   #body1mockup {
     width: 370px;
@@ -683,6 +697,8 @@ footer p {
     margin-top: 0.8em;
 }
 
+
+
   #pinkshapes {
     display: none;
   }
@@ -705,7 +721,7 @@ footer p {
     padding-bottom: 1em;
   }
 
-
+}
 
 
 

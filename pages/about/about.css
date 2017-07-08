@@ -344,7 +344,7 @@ header a {
   width: 100vw;
   background-color: white;
   height: 700px;
-  margin-top: 800px;
+  margin-top: 875px;
   position: absolute;
   z-index: 100;
 }
@@ -355,6 +355,7 @@ header a {
   display: flex;
   justify-content: center;
   position: relative;
+  top: 75px !important;
   z-index: 101;
   background-color: white;
 }
@@ -426,7 +427,7 @@ header a {
 
 .body2background {
   width: 100vw;
-  height: 840px;
+  height: 900px;
   background: -webkit-linear-gradient(190deg, #3B00FF, #FF0080);
   background: -moz-linear-gradient(190deg, #3B00FF, #FF0080);
   background: -o-linear-gradient(190deg, #3B00FF, #FF0080);
@@ -440,6 +441,7 @@ header a {
   width: 100%;
   height: 840px;
   margin: auto;
+  top: 60px;
   display: flex;
   justify-content: center;
   position: relative;
@@ -464,6 +466,7 @@ header a {
 .textbox2 p {
   text-align: center;
   width: 50%;
+  -webkit-font-smoothing: antialiased;
   margin: auto;
   font-size: 1em;
 }
@@ -477,7 +480,7 @@ header a {
 }
 
 .jolon, .tommi, .dylan, .callum {
-  width: 300px;
+  min-width: 300px;
   height: 400px;
   display: inline-block;
   margin: auto;
@@ -517,6 +520,10 @@ header a {
   font-size: 0.9em;
   padding-top: 1em;
 
+}
+
+.dylan {
+  clear: left;
 }
 
 .jolon img {
@@ -563,6 +570,7 @@ header a {
 footer {
   text-align: left;
   padding-top: 3em;
+  padding-bottom: 3em;
   width: 100%;
   left: 0;
   box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
@@ -571,6 +579,7 @@ footer {
 }
 
 footer div {
+  padding-top: 3em;
   width: 100%;
   display: block;
   margin: auto;
@@ -622,99 +631,188 @@ footer p {
 }
 }
 
-@media screen and (max-width: 1270px) {
-
-
-.jolon, .tommi, .dylan, .callum {
-  width: 230px;
-  height: 320px;
-  display: inline-block;
-  margin: 0 auto;
-  margin-top: 3em;
-  box-shadow: 0px 1px 6px #888888;
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  flex-direction: column;
-  background-color: white;
-  opacity: 0.95;
-}
-
-.profilepicture {
-  width: 150px;
-  height: 150px;
-  border-radius: 100%;
-  background-color: black;
-  margin: 0 auto;
-  margin-top: -8em;
-}
-
-.bio {
-  width: 99%;
-  height: 120px;
-  text-align: center;
-}
-
-.bio h6 {
-  font-size: 1.1em;
-}
-
-.bio p {
-  font-size: 0.8em;
-  margin-top: -30px;
-  font-weight: bold;
-}
-}
-
 @media screen and (max-width: 965px) {
 
+  .body2 {
+    height: 600px;
+  }
+
+
+  .textbox2 h2 {
+    margin-top: 2em;
+  }
+
+  .textbox2 p {
+  text-align: center;
+  width: 80%;
+  margin: auto;
+  font-size: 1em;
+}
+  
+
+  .body2background {
+    height: 600px;
+  }
+
+  .jolon, .tommi, .dylan, .callum {
+    width: 85% !important;
+    height: auto;
+    display: inline-block;
+    margin: 0 auto;
+    margin-top: 3em;
+    box-shadow: 0px 1px 6px #888888;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    background-color: white;
+    opacity: 0.95;
+  }
+
+  .profilepicture {
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    margin: 0 auto;
+    margin-top: -80px;
+  }
+
+  .bio {
+    width: 100px;
+    height: 80px;
+    text-align: center;
+    margin-top: -15px;
+    margin-left: -13px;
+  }
+
+ 
+
+  .bio p {
+    font-size: 0.6em;
+    margin-top: 20px;
+  }
+
+}
+
+@media screen and (max-width: 1271px) {
+
 .body2 {
-  height: 600px;
+  height: auto;
+}
+
+.cardcontainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+
+}
+
+.textbox2 p {
+  width: 80%;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
 }
 
 .body2background {
-  height: 600px;
+  height: 2210px;
 }
 
 .jolon, .tommi, .dylan, .callum {
-  width: 150px;
-  height: 200px;
-  display: inline-block;
-  margin: 0 auto;
+  width: 50%;
+  margin: auto;
   margin-top: 3em;
   box-shadow: 0px 1px 6px #888888;
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  flex-direction: column;
   background-color: white;
-  opacity: 0.95;
 }
 
 .profilepicture {
-  width: 80px;
-  height: 80px;
+  width: 120px;
+  height: 120px;
   border-radius: 100%;
-  background-color: black;
-  margin: 0 auto;
-  margin-top: -80px;
+  box-shadow: 0px 25px 40px rgba(0,0,0,0.19);
+  margin: auto;
+  margin-top: 3em;
 }
 
 .bio {
-  width: 100px;
-  height: 80px;
+  width: 70%;
+  height: 180px;
   text-align: center;
-  margin-top: -15px;
-  margin-left: -13px;
+  margin: 1.8em auto;
 }
 
 .bio h6 {
-  font-size: 0.8em;
+  font-size: 1.3em;
+  padding-top: 2em;
+  width: auto;
+  margin: auto;
+  text-align: center;
 }
 
 .bio p {
-  font-size: 0.6em;
-  margin-top: -20px;
-  font-weight: bold;
+  font-size: 0.9em;
+  padding-top: 1em;
+  color: black;
+
 }
+
+.jolon img {
+  border-radius: 100%;
+  width: 100%;
+
+}
+
+.jolon h6 {
+  color: deeppink;
+}
+
+.callum img {
+  border-radius: 100%;
+  width: 100%;
+}
+
+.callum h6 {
+  color: blue;
+}
+
+.tommi img {
+  border-radius: 100%;
+  width: 100%;
+  height: 100%;
+}
+
+.tommi h6 {
+  color: mediumvioletred;
+}
+
+.dylan img {
+  border-radius: 100%;
+  width: 100%;
+  height: 100%;
+}
+
+.dylan h6 {
+  color: darkviolet;
+}
+
+footer {
+  text-align: left;
+  padding-top: 3em;
+  width: 100%;
+  left: 0;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+  height: auto;
+  z-index: 101;
+}
+
+footer div {
+  width: 100%;
+  display: block;
+  margin: 4em auto;
+  width: 85%;
+  max-width: 1500px;
+}
+
+  
 }

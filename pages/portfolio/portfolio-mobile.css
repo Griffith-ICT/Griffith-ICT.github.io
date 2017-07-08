@@ -121,7 +121,6 @@ nav {
 
 header {
   width: 100%;
-  min-height: 700px;
   height: 85vh;
   margin-top: 65px;
   display: flex;
@@ -143,7 +142,7 @@ header {
 }
 
 .slogan h1 {
-  font-size: 1.6em;
+  font-size: 1.8em;
   margin-top: -0.5em;
   -webkit-font-smoothing: antialiased;
 }
@@ -161,14 +160,14 @@ header button {
   height: 50px;
   border: none;
   border-radius: 30px;
-  font-size: 1em;
+  font-size: 0.9em;
   font-family: "Helvetica", sans-serif;
   color: #c200b3;
   margin: 0 auto;
   position: relative;
-  margin-top: 1.5em;
+  margin-top: 3em;
   display: block;
-  box-shadow: 0px 0px 3px #666;
+  box-shadow: 0px 25px 40px rgba(0,0,0,0.1);
 }
 
 header button:hover {

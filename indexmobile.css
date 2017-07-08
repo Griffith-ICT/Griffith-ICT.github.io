@@ -1,6 +1,6 @@
 html {
   height: 100%;
-  font-family: "Helvetica", sans-serif;
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
   width: 100%;
 }
 
@@ -137,6 +137,7 @@ header img {
   height: auto;
   margin-left: auto;
   margin-right: auto;
+  margin-top: -6em;
 }
 
 .slogan {
@@ -165,14 +166,14 @@ header button {
   height: 50px;
   border: none;
   border-radius: 30px;
-  font-size: 1em;
+  font-size: 0.9em;
   font-family: "Helvetica", sans-serif;
   color: #c200b3;
   margin: 0 auto;
   position: relative;
-  margin-top: 1.5em;
+  margin-top: 3em;
   display: block;
-  box-shadow: 0px 0px 3px #666;
+  box-shadow: 0px 25px 40px rgba(0,0,0,0.1);
 }
 
 header button:hover {
@@ -193,26 +194,31 @@ header a {
 
 .body1 {
   min-height: 500px;
-  height: 670px;
+  height: 520px;
   width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding-bottom: 1em;
 }
 
 .body1-textbox1 {
   width: 85%;
-  margin-left: 2em;
+  margin: auto;
+  margin-top: 4em;
+  text-align: center;
 }
 
 .body1-textbox2 {
   width: 85%;
-  margin-left: 2em;
-  margin-top: 1em;
+  margin: auto;
+  margin-top: -2em;
+  text-align: center;
 }
 
 .body1 p {
   margin-top: 0.3em;
+  font-size: 0.9em;
   line-height: 1.8em;
 }
 
@@ -231,47 +237,17 @@ header a {
 
 #h11 {
   color: #e600e6;
-  font-size: 1.5em;
+  font-size: 1.3em;
   display: inline-block;
+  text-align: center;
 }
 
 #h12 {
-  color: darkviolet;
-  font-size: 1.5em;
+  color: #009DFF;
+  font-size: 1.3em;
   display: inline-block;
 }
 
-.body1 button {
-  width: 160px;
-  height: 45px;
-  border: none;
-  border-radius: 30px;
-  font-size: 0.8em;
-  font-family: "Helvetica", sans-serif;
-  color: white;
-  margin: 0 auto;
-  background: -webkit-linear-gradient(left, #FF9D3C, #BA00FF);
-  background: -moz-linear-gradient(left, #FF9D3C, #BA00FF);
-  background: -o-linear-gradient(left, #FF9D3C, #BA00FF);
-  background: linear-gradient(to right, #FF9D3C, #BA00FF);
-  margin-top: 1em;
-}
-
-.body1 button:hover {
-  background: none;
-  font-size: 0.8em;
-  font-family: "Helvetica", sans-serif;
-  color: black;
-  border: 2px solid #BA00FF;
-}
-
-.body1 button:focus {
-  outline: 0;
-}
-
-.body1 a {
-  margin: 0 auto;
-}
 
 /*----Body2----*/
 
@@ -304,12 +280,13 @@ header a {
 }
 
 .body2-content p {
-  font-weight: lighter;
-  line-height: 1.5em;
+  font-weight: 300;
+  font-size: 0.8em;
+  line-height: 2em;
 }
 
 #seamless {
-  font-weight: lighter;
+  font-weight: 200;
 }
 
 #elegant {
@@ -317,24 +294,23 @@ header a {
   font-style: italic;
 }
 
-#powerful {
-  font-weight: bold;
-}
+
 
 .body2 button {
   background-color: white;
-  width: 160px;
-  height: 45px;
+  width: 180px;
+  height: 50px;
   border: none;
   border-radius: 30px;
-  font-size: 0.8em;
+  font-size: 0.9em;
   font-family: "Helvetica", sans-serif;
   color: #c200b3;
   margin: 0 auto;
   position: relative;
-  margin-top: 1.5em;
+  margin-top: 3em;
   display: block;
-  box-shadow: 0px 0px 3px #666;
+  z-index: 1000000;
+  box-shadow: 0px 25px 40px rgba(0,0,0,0.1);
 }
 
 .body2 button:hover {
