@@ -255,9 +255,10 @@ header a {
 /*----Body----*/
 
 .body1 {
-  min-height: 510px;
+  min-height: 300px;
   padding-top: 1em;
-  max-height: 850px;
+  padding-bottom: 2em;
+  max-height: 400px;
   display: inline-block;
 }
 

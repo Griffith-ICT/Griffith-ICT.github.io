@@ -324,9 +324,9 @@ header {
 #shapes {
   position: absolute;
   margin: 0 auto;
-  height: 120px;
-  width: auto;
-  margin-top: 130px;
+  height: auto;
+  width: 400px;
+  margin-top: 100px;
 }
 
 .textbox1 {
@@ -334,7 +334,7 @@ header {
   min-width: 510px;
   width: 45%;
   margin: 0 auto;
-  margin-top: 350px;
+  margin-top: 300px;
   display: block;
   position: relative;
   left: 0;
@@ -394,18 +394,19 @@ header {
 
 .body2background {
   width: 100vw;
-  height: 680px;
+  height: 730px;
   background: -webkit-linear-gradient(190deg, #3B00FF, #FF0080);
   background: -moz-linear-gradient(190deg, #3B00FF, #FF0080);
   background: -o-linear-gradient(190deg, #3B00FF, #FF0080);
   background: linear-gradient(280deg, #3B00FF, #FF0080);
   display: inline-block;
   position: absolute;
-  margin-top: 1680px;
+  margin-top: 1690px;
 }
 
 .body2 {
   width: 100%;
+  padding-top: 3em;
   height: 680px;
   margin: auto;
   top: 60px;
@@ -455,7 +456,7 @@ header {
   display: inline-block;
   margin: auto;
   margin-top: 3em;
-  box-shadow: 0px 1px 6px #888888;
+  box-shadow: 0px 8px 20px rgba(0,0,0,0.19);
   display: flex;
   justify-content: center;
   align-content: center;
@@ -476,7 +477,7 @@ header {
   width: 70%;
   height: 180px;
   text-align: center;
-  margin: 1.8em auto;
+  margin: 4em auto;
 }
 
 .bio h6 {
@@ -599,6 +600,7 @@ footer p {
 .bubbles {
   display: none;
 }
+
 }
 
 @media screen and (max-width: 965px) {
@@ -630,7 +632,6 @@ footer p {
     display: inline-block;
     margin: 0 auto;
     margin-top: 3em;
-    box-shadow: 0px 1px 6px #888888;
     display: flex;
     justify-content: center;
     align-content: center;
@@ -670,12 +671,25 @@ footer p {
   height: auto;
 }
 
+.body1 {
+  top: 2900px;
+}
+
+.body1background {
+  height: 2150px;
+}
+
 .cardcontainer {
   display: flex;
   flex-direction: column;
   width: 100%;
   height: auto;
 
+}
+
+#shapes {
+  width: 300px;
+  margin-top: 9%;
 }
 
 .textbox2 p {
@@ -685,14 +699,20 @@ footer p {
 }
 
 .body2background {
-  height: 2210px;
+  height: 680px;
+  margin-top: 10em;
+  top: 2900px;
 }
+
+.textbox1 {
+  margin-top: 14em;
+}
+
 
 .jolon, .tommi, .dylan, .callum {
   width: 50%;
   margin: auto;
   margin-top: 3em;
-  box-shadow: 0px 1px 6px #888888;
   background-color: white;
 }
 
