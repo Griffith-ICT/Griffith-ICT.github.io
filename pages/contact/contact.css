@@ -258,6 +258,12 @@ header button:focus {
   margin-top: -400px;
   animation: leftsmall infinite;
   animation-duration: 3s;
+  transition: all .4s ease-in-out;
+}
+
+#leftsmall:hover {
+  transform: scale(1.08);
+  transition-duration: 0.4s;
 }
 
 #leftlarge {
@@ -273,9 +279,13 @@ header button:focus {
   margin-top: -120px;
   animation: leftlarge infinite;
   animation-duration: 3s;
-
+  transition: all .4s ease-in-out;
 }
 
+#leftlarge:hover {
+  transform: scale(1.08);
+  transition-duration: 0.4s;
+}
 
 #rightmedium {
   position: absolute;
@@ -289,6 +299,12 @@ header button:focus {
   margin-top: -290px;
   animation: rightmedium infinite;
   animation-duration: 3s;
+  transition: all .4s ease-in-out;
+}
+
+#rightmedium:hover {
+  transform: scale(1.08);
+  transition-duration: 0.4s;
 }
 
 #rightlarge {
@@ -300,6 +316,12 @@ header button:focus {
   margin-top: -90px;
   animation: rightlarge infinite;
   animation-duration: 3s;
+  transition: all .4s ease-in-out;
+}
+
+#rightlarge:hover {
+  transform: scale(1.08);
+  transition-duration: 0.4s;
 }
 
 

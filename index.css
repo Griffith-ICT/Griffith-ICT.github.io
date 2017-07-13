@@ -119,6 +119,7 @@ nav a {
 #portfolio:hover {
   color: #BA00FF;
 }
+
 nav button {
   background: -webkit-linear-gradient(left, #FF9D3C, #BA00FF);
   background: -moz-linear-gradient(left, #FF9D3C, #BA00FF);
@@ -186,7 +187,6 @@ nav button:active {
   color: white;
 }
 
-
 .slogan {
   display: block;
   margin: 0 auto !important;
@@ -211,6 +211,12 @@ nav button:active {
   margin-top: 3em;
   line-height: 2;
   -webkit-font-smoothing: antialiased;
+}
+
+#indicator {
+  width: 35px;
+  margin-bottom: -190px;
+  height: auto;
 }
 
 header button {
@@ -245,7 +251,7 @@ header a {
   outline: 0;
 }
 
-.about-tinycircle {
+#left-small {
   position: absolute;
   border-radius: 100%;
   background: linear-gradient(120deg, #ef00f6, #2400fe);
@@ -258,10 +264,15 @@ header a {
   z-index: 100000 !important;
   float: left;
   padding: 80px;
+  transition: all .4s ease-in-out;
 }
 
+#left-small:hover {
+  transform: scale(1.08);
+  transition-duration: 0.4s;
+}
 
-.about-smallcircle {
+#right-small {
   position: absolute;
   border-radius: 100%;
   margin-left: 1000px;
@@ -273,9 +284,15 @@ header a {
   z-index: 98;
   animation: smallcircle infinite 3s;
   padding: 75px;
+  transition: all .4s ease-in-out;
 }
 
-.about-mediumcircle {
+#right-small:hover {
+  transform: scale(1.08);
+  transition-duration: 0.4s;
+}
+
+#right-large {
   border-radius: 100%;
   margin-left: 1100px; 
   margin-top: -240px;
@@ -286,10 +303,15 @@ header a {
   animation-delay: 0.5s;
   border-radius: 100%;
   position: absolute;
+  transition: all .4s ease-in-out;
 }
 
+#right-large:hover {
+  transform: scale(1.08);
+  transition-duration: 0.4s;
+}
 
-.about-largecircle {
+#left-large {
   position: absolute;
   border-radius: 100%;
   margin-left: 50px;
@@ -301,8 +323,13 @@ header a {
   z-index: 100;
   padding: 145px;
   animation: largecircle infinite 3s;
+  transition: all .4s ease-in-out;
 }
 
+#left-large:hover {
+  transform: scale(1.08);
+  transition-duration: 0.4s;
+}
 
 /*----Body1-----*/
 
