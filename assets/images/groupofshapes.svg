@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="4985.199 3172.066 461.173 109.534">
+  <defs>
+    <style>
+      .cls-1, .cls-11, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9 {
+        fill: none;
+      }
+
+      .cls-1 {
+        stroke: rgba(255,255,255,0.38);
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9 {
+        stroke-width: 3px;
+      }
+
+      .cls-2 {
+        stroke: rgba(255,255,255,0.67);
+      }
+
+      .cls-3 {
+        stroke: rgba(255,255,255,0.47);
+      }
+
+      .cls-4 {
+        stroke: rgba(255,255,255,0.8);
+      }
+
+      .cls-5 {
+        stroke: rgba(255,255,255,0.42);
+      }
+
+      .cls-6 {
+        stroke: rgba(255,255,255,0.78);
+      }
+
+      .cls-7 {
+        stroke: rgba(255,255,255,0.64);
+      }
+
+      .cls-8 {
+        stroke: rgba(255,255,255,0.71);
+      }
+
+      .cls-9 {
+        stroke: rgba(255,255,255,0.75);
+      }
+
+      .cls-10 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="Group_68" data-name="Group 68" transform="translate(4252 72.491)">
+    <g id="Ellipse_66" data-name="Ellipse 66" class="cls-1" transform="translate(1029.978 3184.334)">
+      <circle class="cls-10" cx="12.197" cy="12.197" r="12.197"/>
+      <circle class="cls-11" cx="12.197" cy="12.197" r="10.697"/>
+    </g>
+    <g id="Ellipse_67" data-name="Ellipse 67" class="cls-2" transform="translate(847.963 3142.114)">
+      <circle class="cls-10" cx="9.851" cy="9.851" r="9.851"/>
+      <circle class="cls-11" cx="9.851" cy="9.851" r="8.351"/>
+    </g>
+    <g id="Group_65" data-name="Group 65" transform="matrix(0.883, 0.469, -0.469, 0.883, 1084.989, 3142.505)">
+      <line id="Line_1" data-name="Line 1" class="cls-3" x2="16.419" y2="16.419" transform="translate(0 0)"/>
+      <line id="Line_2" data-name="Line 2" class="cls-3" x1="16.419" y2="16.419" transform="translate(0 0)"/>
+    </g>
+    <g id="Group_66" data-name="Group 66" transform="translate(883.499 3189.26) rotate(-45)">
+      <line id="Line_3" data-name="Line 3" class="cls-4" x2="16.419" y2="16.419" transform="translate(0 0)"/>
+      <line id="Line_4" data-name="Line 4" class="cls-4" x1="16.419" y2="16.419" transform="translate(0 0)"/>
+    </g>
+    <path id="Path_944" data-name="Path 944" class="cls-5" d="M0,9.326,5.041,0l5.041,9.326Z" transform="translate(929.641 3152.892) rotate(-21)"/>
+    <path id="Path_945" data-name="Path 945" class="cls-5" d="M0,16.74,9.049,0,18.1,16.74Z" transform="translate(1004.051 3143.814) rotate(30)"/>
+    <path id="Path_946" data-name="Path 946" class="cls-5" d="M0,11.723,6.337,0l6.337,11.723Z" transform="translate(836.679 3185.39) rotate(-21)"/>
+    <g id="Rectangle_359" data-name="Rectangle 359" class="cls-6" transform="translate(1122.027 3154.002) rotate(-30)">
+      <rect class="cls-10" width="17.826" height="17.826"/>
+      <rect class="cls-11" x="1.5" y="1.5" width="14.826" height="14.826"/>
+    </g>
+    <g id="Rectangle_360" data-name="Rectangle 360" class="cls-7" transform="matrix(0.966, 0.259, -0.259, 0.966, 790.14, 3146.348)">
+      <rect class="cls-10" width="17.826" height="17.826"/>
+      <rect class="cls-11" x="1.5" y="1.5" width="14.826" height="14.826"/>
+    </g>
+    <path id="Path_947" data-name="Path 947" class="cls-8" d="M0,11.723,6.337,0l6.337,11.723Z" transform="translate(1082.297 3182.73)"/>
+    <g id="Rectangle_361" data-name="Rectangle 361" class="cls-6" transform="translate(954.769 3193.672) rotate(-30)">
+      <rect class="cls-10" width="17.826" height="17.826"/>
+      <rect class="cls-11" x="1.5" y="1.5" width="14.826" height="14.826"/>
+    </g>
+    <g id="Group_69" data-name="Group 69" transform="translate(883.499 3189.26) rotate(-45)">
+      <line id="Line_3-2" data-name="Line 3" class="cls-4" x2="16.419" y2="16.419" transform="translate(0 0)"/>
+      <line id="Line_4-2" data-name="Line 4" class="cls-4" x1="16.419" y2="16.419" transform="translate(0 0)"/>
+    </g>
+    <path id="Path_948" data-name="Path 948" class="cls-5" d="M0,11.723,6.337,0l6.337,11.723Z" transform="translate(736.679 3108.39) rotate(-21)"/>
+    <g id="Rectangle_362" data-name="Rectangle 362" class="cls-6" transform="translate(893.77 3113.672) rotate(-30)">
+      <rect class="cls-10" width="17.826" height="17.826"/>
+      <rect class="cls-11" x="1.5" y="1.5" width="14.826" height="14.826"/>
+    </g>
+    <g id="Ellipse_68" data-name="Ellipse 68" class="cls-1" transform="translate(1169.979 3104.334)">
+      <circle class="cls-10" cx="12.197" cy="12.197" r="12.197"/>
+      <circle class="cls-11" cx="12.197" cy="12.197" r="10.697"/>
+    </g>
+    <path id="Path_949" data-name="Path 949" class="cls-8" d="M0,11.723,6.337,0l6.337,11.723Z" transform="translate(1122.297 3102.73)"/>
+    <g id="Group_70" data-name="Group 70" transform="translate(806.9 3127.469) rotate(-90)">
+      <line id="Line_3-3" data-name="Line 3" class="cls-4" x2="16.419" y2="16.419" transform="translate(0 0)"/>
+      <line id="Line_4-3" data-name="Line 4" class="cls-4" x1="16.419" y2="16.419" transform="translate(0 0)"/>
+    </g>
+    <g id="Ellipse_70" data-name="Ellipse 70" class="cls-9" transform="translate(957.979 3114.334)">
+      <circle class="cls-10" cx="9.197" cy="9.197" r="9.197"/>
+      <circle class="cls-11" cx="9.197" cy="9.197" r="7.697"/>
+    </g>
+    <g id="Rectangle_363" data-name="Rectangle 363" class="cls-7" transform="matrix(0.966, 0.259, -0.259, 0.966, 1035.14, 3112.348)">
+      <rect class="cls-10" width="17.826" height="17.826"/>
+      <rect class="cls-11" x="1.5" y="1.5" width="14.826" height="14.826"/>
+    </g>
+    <g id="Group_71" data-name="Group 71" transform="matrix(0.883, 0.469, -0.469, 0.883, 1001.988, 3104.505)">
+      <line id="Line_1-2" data-name="Line 1" class="cls-3" x2="12.412" y2="12.412" transform="translate(0 0)"/>
+      <line id="Line_2-2" data-name="Line 2" class="cls-3" x1="12.412" y2="12.412" transform="translate(0 0)"/>
+    </g>
+  </g>
+</svg>
