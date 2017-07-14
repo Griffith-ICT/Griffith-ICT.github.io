@@ -84,10 +84,6 @@ nav a {
   color: #FF0080;
 }
 
-#portfolio:hover {
-  color: #BA00FF;
-}
-
 nav button {
   background: -webkit-linear-gradient(left, #FF9D3C, #BA00FF);
   background: -moz-linear-gradient(left, #FF9D3C, #BA00FF);

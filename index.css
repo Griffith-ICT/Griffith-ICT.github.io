@@ -32,6 +32,25 @@
   }
 
 
+  /*----Slideshow Keyframes----*/
+
+  @keyframes anim-1 {
+	0%, 8.3% { left: -100%; opacity: 0; }
+  8.3%,25% { left: 25%; opacity: 1; }
+  33.33%, 100% { left: 110%; opacity: 0; }
+}
+
+@keyframes anim-2 {
+	0%, 33.33% { left: -100%; opacity: 0; }
+  41.63%, 58.29% { left: 25%; opacity: 1; }
+  66.66%, 100% { left: 110%; opacity: 0; }
+}
+
+@keyframes anim-3 {
+	0%, 66.66% { left: -100%; opacity: 0; }
+  74.96%, 91.62% { left: 25%; opacity: 1; }
+  100% { left: 110%; opacity: 0; }
+}
 
 
 
@@ -109,15 +128,11 @@ nav a {
 }
 
 #home:hover {
-  color: #FF9D3C
+  color: #BA00FF;
 }
 
 #about:hover {
   color: #FF0080;
-}
-
-#portfolio:hover {
-  color: #BA00FF;
 }
 
 nav button {
@@ -785,4 +800,67 @@ footer p {
 .about-largecircle {
   display: none;
  }
+}
+
+/*----Body3----*/
+
+.body3 {
+  height: 580px;
+  width: 100%;
+}
+
+.mockup-container {
+  margin: 0 auto;
+  display: block;
+  width: 800px;
+  position: absolute;
+  animation-duration: 25s;
+	animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  transition-duration: 1s;
+}
+
+.mockup1 {
+  animation-name: anim-1;
+  transition-duration: 1s;
+}
+
+.mockup2 {
+  animation-name: anim-2;
+  transition-duration: 1s;
+}
+
+.mockup3 {
+  animation-name: anim-3;
+  transition-duration: 1s;
+}
+
+.mockup-container-texbox {
+  text-align: right;
+  line-height: 2;
+  float: right;
+  width: 480px;
+  margin-top: 150px;
+}
+
+.mockup-container-texbox h3 {
+  font-size: 1.5em;
+}
+
+#gcaccess {
+  color: #684eff;
+}
+
+#gcdogparks {
+  color: deeppink;
+}
+
+.mockup-container-texbox p {
+  margin-top: 2em;
+}
+
+.body3-mockup {
+  height: 500px;
+  width: auto;
+  margin-top: 40px;
 }

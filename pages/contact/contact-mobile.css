@@ -217,8 +217,8 @@ header a {
   background: -moz-linear-gradient(left, #FF9D3C, #BA00FF);
   background: -o-linear-gradient(left, #FF9D3C, #BA00FF);
   background: linear-gradient(to right, #FF9D3C, #BA00FF);
-  width: 200px;
-  height: 60px;
+  width: 180px;
+  height: 50px;
   border: none;
   border-radius: 30px;
   font-size: 0.9em;
