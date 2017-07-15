@@ -251,10 +251,10 @@ header a {
 /*----Body----*/
 
 .body1 {
-  min-height: 300px;
+  min-height: 200px;
   padding-top: 1em;
   padding-bottom: 2em;
-  max-height: 400px;
+  max-height: 280px;
   display: inline-block;
 }
 
@@ -367,7 +367,7 @@ header a {
 }
 
 .jolon h6 {
-  color: deeppink;
+  color: blue;
 }
 
 .callum img {
@@ -376,7 +376,7 @@ header a {
 }
 
 .callum h6 {
-  color: blue;
+  color: deeppink;
 }
 
 .tommi img {
@@ -386,7 +386,7 @@ header a {
 }
 
 .tommi h6 {
-  color: mediumvioletred;
+  color: darkviolet;
 }
 
 .dylan img {
@@ -396,7 +396,7 @@ header a {
 }
 
 .dylan h6 {
-  color: darkviolet;
+  color: mediumvioletred;
 }
 
 
