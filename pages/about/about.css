@@ -5,6 +5,12 @@
 
 /*----Keyframes----*/
 
+@keyframes indicator {
+  0% {top: 380px;}
+  100% {top: 390px;}
+}
+
+
 @keyframes leftsmall {
   0% {margin-left: 100px; margin-top: -300px;}
   50% {margin-left: 110px; margin-top: -300px;}
@@ -209,6 +215,34 @@ header {
   line-height: 2;
   -webkit-font-smoothing: antialiased;
 }
+
+header button {
+  width: 45px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 390px;
+  background: none;
+  border: none;
+  height: auto;
+  z-index: 1000000;
+  animation: indicator 1s infinite ease-in-out;
+  animation-fill-mode: both;
+  animation-direction: alternate-reverse;
+
+}
+
+header button:hover {
+  cursor: pointer;
+}
+
+header button:focus {
+  outline: none;
+}
+
+
+
 
 #leftsmall {
   position: absolute;
