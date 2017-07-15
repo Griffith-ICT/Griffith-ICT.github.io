@@ -76,6 +76,14 @@ nav a {
   color: black;
 }
 
+nav a:visited {
+  color: black;
+}
+
+nav a:active {
+  color: black;
+}
+
 #home:hover {
   color: #FF9D3C
 }

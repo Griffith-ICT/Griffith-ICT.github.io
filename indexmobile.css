@@ -75,7 +75,15 @@ nav h1 {
   font-size: 1.2em;
 }
 
+nav a {
+  color: black;
+}
+
 nav a:visited {
+  color: black;
+}
+
+nav a:active {
   color: black;
 }
 

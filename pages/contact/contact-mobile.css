@@ -53,6 +53,14 @@ nav {
   margin-top: 16px;
 }
 
+nav a {
+  color: black;
+}
+
+nav a:active {
+  color: black;
+}
+
 nav a:visited {
   color: black;
 }
