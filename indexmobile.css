@@ -371,7 +371,7 @@ header a {
   animation-duration: 25s;
 	animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;
-  transition-duration: 1s;
+  transition-duration: 15s;
   position: absolute;
   left: 0;
   right: 0;
@@ -379,24 +379,25 @@ header a {
 }
 
 .mockup1 {
-  animation-name: anim-1;
-  transition-duration: 1s;
+  animation: anim-1 50s infinite;
+  transition-duration: 60s;
 }
 
 .mockup2 {
-  animation-name: anim-2;
-  transition-duration: 1s;
+  animation: anim-2 50s infinite;
+  transition-duration: 60s;
 }
 
 .mockup3 {
-  animation-name: anim-3;
-  transition-duration: 1s;
+  animation: anim-3 50s infinite;
+  transition-duration: 60s;
 }
 
 .mockup-container-texbox {
   line-height: 2;
   font-size: 0.8em;
   width: 100%;
+  text-align: center;
 }
 
 .mockup-container-texbox h3 {
